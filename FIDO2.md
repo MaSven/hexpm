@@ -8,7 +8,7 @@ For the browser, there is [WAX](https://hex.pm/packages/wax_) which already impl
 * For the cli, we need a way to read the usb key. Yubikey does have a library for that here 
   <https://github.com/Yubico/python-fido2> but we need a way to implement this for elixir.
 * This is also a good explanation about [webauthn](https://developers.yubico.com/WebAuthn/).
-* There is also a c implementation for the host side.
+* There is also a c implementation for the host side <https://developers.yubico.com/libfido2/>.
 * WAX already has a rest api implementation <https://github.com/tanguilp/wax_api_rest>
 
 # What is FIDO2
